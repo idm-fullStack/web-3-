@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Set background color */
+body {
+  background-color: #f2f2f2;
+}
+
+/* Set header styles */
+h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+h3 {
+  font-size: 22px;
+  color: #220,20,60 ;
+}
+
+/* Set paragraph styles */
+p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Set link styles */
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Set list styles */
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Set image styles */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Set form styles */
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Set table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Set media queries for responsive design */
+@media (max-width: 460px) {
+  /* Styles for devices with a maximum width of 460px */
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    padding: 5px 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* Styles for devices with a maximum width of 600px */
+  table {
+    font-size: 14px;
+  }
+  
+  th, td {
+    padding: 5px;
+  }
+}
